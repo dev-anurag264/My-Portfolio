@@ -1,0 +1,32 @@
+
+body {
+font-family: Arial, sans-serif;
+}
+.hero {
+height: 100vh;
+background: url("https://via.placeholder.com/1500x1000") no-repeat center center/cover;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+.navbar-brand {
+font-weight: bold;
+}
+.about {
+padding: 60px 0;
+}
+.projects {
+background-color: #f8f9fa;
+padding: 60px 0;
+}
+.contact {
+padding: 60px 0;
+}
+footer {
+background-color: #343a40;
+color: white;
+text-align: center;
+padding: 20px 0;
+}
