@@ -1,32 +1,101 @@
-
 body {
-font-family: Arial, sans-serif;
+    font-family: 'Rubik', serif;
+    background-color: #0B0D0E;
 }
+
 .hero {
-height: 100vh;
-background: url("https://via.placeholder.com/1500x1000") no-repeat center center/cover;
-color: white;
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7) !important; /* Semi-transparent */
+    transition: background-color 0.3s ease-in-out;
 }
 .navbar-brand {
-font-weight: bold;
+    font-weight: bold;
+    font-family: "Rubik", serif;
 }
+
+.navbar-nav .nav-link {
+    font-family: 'Rubik', serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease-in-out;
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #08D665 !important;
+}
+
+
 .about {
-padding: 60px 0;
+    padding: 60px 0;
 }
+
 .projects {
-background-color: #f8f9fa;
-padding: 60px 0;
+    background-color: #f8f9fa;
+    padding: 60px 0;
 }
+
 .contact {
-padding: 60px 0;
+    padding: 60px 0;
 }
+
 footer {
-background-color: #343a40;
-color: white;
-text-align: center;
-padding: 20px 0;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.carousel-item {
+    height: 100vh;
+    /* Adjust height as needed */
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.carousel-caption h1 {
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.huge {
+    font-size: 3rem;
+    color: #08D665;
+    font-weight: bold;
+
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.intro-head{
+    font-family: "Oswald", serif;
+    font-size: 4rem;
+    color: white;
+}
+
+.intro-trail{
+    font-family: "Oswald", serif;
+    font-size: 4rem;
+    color: #08D665;
 }
