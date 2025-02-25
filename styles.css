@@ -90,12 +90,129 @@ footer {
 
 .intro-head{
     font-family: "Oswald", serif;
-    font-size: 4rem;
+    
     color: white;
+    font-size: 60px;
+    line-height: 80px;
+    margin-bottom: 25px;
 }
 
 .intro-trail{
     font-family: "Oswald", serif;
-    font-size: 4rem;
+    font-size: 60px;
+    line-height: 80px;
+    margin-bottom: 25px;
     color: #08D665;
 }
+
+
+    .heading small{
+        font-weight: 500;
+        color: #08d665 !important;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+.heading h2 span{
+  
+    color: #22cd6f;
+
+}
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+      }
+      .hero {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+      }
+      .heading strong.filltext {
+        font-size: 80px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 1px #171c1e;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+    }
+    #heroCarousel .carousel-item {
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+      }
+      .hero {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+      }
+      #about {
+        height: 100vh;
+        background-color: #0B0D0E;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0;
+      }
+      #about h2 {
+        font-size: 44px;
+        line-height: 55px;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+    }
+      
+      #about p {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 40px;
+        font-size: 1.3rem;
+        color: white;
+      }
+   
+      .background-img {
+        width: 50%;
+        position: absolute;
+        top: 0;
+        left: 80%;
+        transform: translateX(-50%) scale(1.9);
+        opacity: 0.5;
+        z-index: 1;
+      }
+      .foreground-img {
+        max-width: 80%;
+
+        position: relative;
+        z-index: 5;
+        margin-top: 30px;
+        border: 5px solid white;
+      }
+
+      .know-more-btn {
+        position: relative;
+        bottom: 20px;
+        left: 10px;
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        background-color: #08D665;
+      }
